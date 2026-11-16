@@ -54,7 +54,7 @@
 
 | Booking Portal | Admin Dashboard |
 | :---: | :---: |
-| ![Booking Portal](screenshots/localhost_globeTrekadventures_php_booking.php.png) | ![Admin Dashboard](screenshots/localhost_globeTrekadventures_admin_dashboard.php.png) |
+| ![Booking Portal](screenshots/localhost_globeTrekadventures_php_booking.php) | ![Admin Dashboard](screenshots/localhost_globeTrekadventures_admin_dashboard.php.png) |
 
 ---
 
