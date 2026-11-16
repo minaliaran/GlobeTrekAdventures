@@ -1,0 +1,741 @@
+
+
+@media (max-width: 1200px) {
+    .discovery-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .hub-card-col {
+        grid-column: span 2;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .prev-btn { left: 10px; }
+    .next-btn { right: 10px; }
+}
+
+@media (max-width: 1024px) {
+    
+
+    .intro-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 900px) {
+    .things-to-do.common-home .wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 850px) {
+    .discovery-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hub-text-col {
+        align-items: center;
+    }
+
+    .hub-card-col {
+        grid-column: auto;
+    }
+
+    .hub-map-wrap {
+        transform: scale(0.9);
+    }
+
+    .hub-text-col h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .insight-grid {
+        grid-template-columns: 1fr;
+    }
+
+  
+
+    .newsletter {
+        padding: 72px 16px;
+    }
+
+    .newsletter-inner h2 {
+        font-size: clamp(2.2rem, 10vw, 3.2rem);
+    }
+
+    .newsletter-inner p {
+        margin-bottom: 28px;
+    }
+
+    .nl-form {
+        grid-template-columns: 1fr;
+    }
+
+    .nl-form button {
+        width: 100%;
+    }
+
+    .btn-hamburger {
+        display: flex;
+    }
+
+    .nav-menu.open {
+        display: block;
+    }
+
+    .nav-actions .nav-btn-ghost:not(:last-of-type),
+    .nav-actions .nav-btn-primary {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: clamp(2rem, 6vw, 2.8rem);
+    }
+
+    .hero-desc {
+        font-size: 16px;
+    }
+
+    .hero-search-bar {
+        flex-direction: column;
+        border-radius: 20px;
+    }
+
+    .hero-search-field {
+        padding: 15px 20px;
+    }
+
+    .btn-hero-search {
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .dest-carousel-card {
+        flex: 0 0 280px;
+        height: 350px;
+    }
+
+    .carousel-arrow {
+        width: 42px;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .tours-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .video-section {
+        height: 450px;
+    }
+
+    .nl-form input,
+    .nl-form button {
+        border-radius: 12px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .testimonial-card {
+        padding: 20px;
+    }
+
+    .weather-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .weather-card {
+        padding: 20px;
+    }
+
+    .blog-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .blog-card {
+        margin-bottom: 0;
+    }
+
+    .social-links {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-badges {
+        justify-content: center;
+    }
+
+    .footer-bottom-content {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero-badge {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .intro-title {
+        font-size: 32px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dest-carousel-card {
+        flex: 0 0 260px;
+        height: 330px;
+    }
+
+    .tour-img {
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .details-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .booking-sticky-card {
+        position: static;
+        margin-top: 40px;
+    }
+
+    .pkg-detail-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .explorer-controls {
+        flex-direction: column;
+        border-radius: 24px;
+        padding: 20px;
+    }
+
+    .explorer-search-input-wrap {
+        border-right: none;
+        border-bottom: 1px solid #f1f5f9;
+        margin-bottom: 10px;
+    }
+
+    .explorer-search-form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .acc-hero h1 {
+        font-size: clamp(1.9rem, 5.5vw, 2.7rem);
+    }
+
+    .booking-container {
+        grid-template-columns: 1fr;
+    }
+
+    .masonry-gallery {
+        columns: 2;
+    }
+
+    .story-grid,
+    .contact-grid,
+    .values-grid,
+    .team-grid,
+    .stats-banner {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .month-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .info-cards-grid,
+    .food-grid,
+    .phrase-grid,
+    .packing-cols {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .guide-two-col {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .acc-hero h1 {
+        font-size: clamp(1.8rem, 5.5vw, 2.4rem);
+    }
+
+    .hotel-gallery-image, .gallery-item-wrap {
+        flex: 0 0 85%;
+        height: 280px;
+    }
+
+    .hotel-grid,
+    .pkg-main-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .booking-switcher {
+        grid-template-columns: 1fr;
+    }
+
+    .masonry-gallery {
+        columns: 1;
+    }
+
+    .explorer-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-bar-wrap {
+        min-width: 100%;
+    }
+
+    .filter-chip {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .acc-filters {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .about-hero {
+        min-height: 88vh;
+        padding-top: 120px;
+    }
+
+    .about-hero-cta-row,
+    .story-signature,
+    .transport-action,
+    .social-icons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .story-grid,
+    .contact-grid,
+    .values-grid,
+    .team-grid,
+    .stats-banner {
+        grid-template-columns: 1fr;
+    }
+
+    .story-image-badge {
+        right: 18px;
+        bottom: 18px;
+    }
+
+    .about-timeline::before {
+        left: 15px;
+    }
+
+    .timeline-item {
+        padding-left: 48px;
+    }
+
+    .timeline-dot {
+        left: 5px;
+    }
+
+    .gallery-container {
+        columns: 2 180px;
+    }
+
+    .guide-hero {
+        height: 100vh;
+        padding: 128px 16px 72px;
+    }
+
+    .guide-hero-label {
+        font-size: 0.82rem;
+    }
+
+    .guide-tabs-bar {
+        top: 70px;
+    }
+
+    .guide-tabs {
+        padding: 12px 16px;
+    }
+
+    .guide-tab {
+        padding: 11px 16px;
+        font-size: 0.92rem;
+    }
+
+    .guide-section {
+        padding: 72px 0;
+        scroll-margin-top: 150px;
+    }
+
+    .month-grid,
+    .info-cards-grid,
+    .food-grid,
+    .phrase-grid,
+    .packing-cols {
+        grid-template-columns: 1fr;
+    }
+
+    .budget-table {
+        min-width: 640px;
+    }
+
+    .btn-primary, .btn-secondary, .btn-book, .btn-view, 
+    .nav-btn-primary, .nav-btn-ghost, .nav-btn-black,
+    .dash-action-button, .landmark-back-button, .btn-about-link,
+    .btn-hero-search, .nl-form button, .btn-pkg, .btn-srv-submit,
+    .btn-book-premium, .btn-book-full, .filter-chip {
+        min-height: 46px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border-radius: 999px !important; /* Force the premium pill shape */
+        border-radius: 999px !important;
+        font-weight: 600 !important;
+        letter-spacing: 0.3px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        text-decoration: none;
+        border-width: 1.5px;
+    }
+
+    .btn-primary:hover, .btn-book:hover, .btn-view:hover, .nav-btn-primary:hover,
+    .dash-action-button:hover, .landmark-back-button:hover, .nl-form button:hover,
+    .btn-book-premium:hover, .btn-book-full:hover {
+        transform: translateY(-2px) !important;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contact-info-panel,
+    .contact-form-panel,
+    .transport-card,
+    .value-card,
+    .team-card {
+        padding: 24px 20px;
+    }
+
+    .gallery-container {
+        columns: 1;
+    }
+
+    .guide-hero-subtitle,
+    .guide-section-desc,
+    .guide-tip-body span,
+    .info-card-body p,
+    .food-body p {
+        font-size: 0.95rem;
+    }
+
+    .month-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .month-card,
+    .info-card,
+    .food-card,
+    .phrase-card,
+    .packing-col,
+    .visa-box,
+    .guide-checklist {
+        border-radius: 20px;
+    }
+
+    .guide-tabs {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .grid-2,
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .flex-col-mobile {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-2-srv {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .bok-hero {
+        padding: 120px 16px 72px;
+    }
+
+    .booking-page {
+        padding: 128px 16px 48px;
+    }
+
+    .grid-2-srv {
+        grid-template-columns: 1fr;
+    }
+
+    .booking-card {
+        padding: 24px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .things-intro-grid,
+    .map-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .activities-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .activity-meta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 640px) {
+    .things-hero {
+        min-height: 640px;
+        padding: 120px 16px 72px;
+    }
+
+    .things-hero h1 {
+        font-size: clamp(1.9rem, 6vw, 2.7rem);
+    }
+
+    .things-intro-band {
+        padding-top: 72px;
+    }
+
+    .activity-image {
+        height: 210px;
+    }
+
+    .activities-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .dash-two-col {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .dash-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dash-container,
+    .dash-header {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .dash-container {
+        padding-top: 116px;
+    }
+
+    .dash-section-head {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .dash-card,
+    .dash-table-box,
+    .dash-hero,
+    .dash-stat-card,
+    .dash-action-card,
+    .dash-list-card,
+    .dash-progress-card,
+    .dash-trip-card,
+    .dash-pkg-card {
+        border-radius: 20px;
+    }
+
+    .dash-trip-footer,
+    .dash-pkg-footer {
+        align-items: stretch;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .dash-stat-grid,
+    .dash-grid,
+    .dash-action-grid,
+    .dash-trip-grid,
+    .dash-reco-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    .auth-container {
+        grid-template-columns: 1fr;
+    }
+
+    .auth-image {
+        min-height: 320px;
+    }
+}
+
+@media (max-width: 640px) {
+    .auth-page {
+        padding: 108px 16px 48px;
+    }
+
+    .auth-box {
+        padding: 28px 22px;
+    }
+}
+
+@media (max-width: 900px) {
+    .advantage-detail-grid {
+        grid-template-columns: 1fr;
+        margin-top: -56px;
+    }
+
+    .advantage-hero {
+        min-height: 100vh;
+        min-height: 100svh;
+        padding: 120px 20px 76px;
+    }
+
+    .advantage-panel {
+        padding: 30px 26px;
+    }
+}
+
+@media (max-width: 640px) {
+    .advantage-detail-page .section {
+        padding: 72px 0 84px;
+    }
+
+    .advantage-detail-grid {
+        margin-top: -40px;
+        gap: 20px;
+    }
+
+    .advantage-hero {
+        padding: 112px 16px 68px;
+    }
+
+    .advantage-hero .hero-badge {
+        margin-bottom: 18px;
+        padding: 9px 16px;
+        font-size: 0.75rem;
+    }
+
+    .advantage-hero p {
+        font-size: 1rem;
+    }
+
+    .advantage-panel,
+    .advantage-fact {
+        border-radius: 22px;
+    }
+
+    .advantage-panel {
+        padding: 24px 20px;
+    }
+
+    .advantage-fact {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hotel-feature-slider img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .month-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 900px) {
+    .guide-hero {
+        height: 100vh;
+        min-height: 100svh;
+    }
+    .month-grid { grid-template-columns: repeat(2, 1fr); }
+    .visa-box { padding: 30px; }
+}
+
+@media (max-width: 600px) {
+    .month-grid { grid-template-columns: 1fr; }
+    .guide-tab { padding: 16px 12px; font-size: 0.8rem; }
+    .guide-hero-title { font-size: clamp(1.8rem, 5.5vw, 2.4rem); }
+    .hero-actions { flex-direction: column; }
+    .visa-box h3 { font-size: 1.4rem; }
+}
+
+@media (max-width: 1000px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-hero { height: 50vh; }
+    .contact-form-panel { padding: 40px 24px; }
+    .contact-info-panel { padding: 40px 24px; }
+    .premium-form .form-row { grid-template-columns: 1fr; gap: 0; }
+}

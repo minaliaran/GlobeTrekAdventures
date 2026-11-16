@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Things to Do | GlobeTrek Adventures Sri Lanka</title>
+        <link rel="icon" type="image/png" href="../images/favicon.png">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/layout.css">
+        <link rel="stylesheet" href="../css/components.css">
+        <link rel="stylesheet" href="../css/pages.css">
+        <link rel="stylesheet" href="../css/navigation.css">
+        <link rel="stylesheet" href="../css/things-to-do.css">
+    </head>
+
+    <body>
+        <header class="navbar" id="navbar"></header>
+       
+        
+        <main>
+            <section class="things-hero">
+                <img src="../images/thingsdoto.jpg" class="things-hero-bg" alt="Things to do">
+                <div class="hero-overlay"></div>
+                <div class="container container--hero">
+                    <div class="things-hero-content reveal">
+                        <span class="hero-badge"><i class="fas fa-compass"></i> Activities & Experiences</span>
+                        <h1>Discover your <em>Adventure</em></h1>
+                        <p>From the wild savanna to misty mountain peaks, find the heart-pounding experiences that
+                            define your journey through Sri Lanka.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="things-intro-band">
+                <div class="container">
+                    <div class="things-intro-grid reveal">
+                        <div class="things-intro-copy">
+                            <span class="hero-badge hero-badge--light"><i class="fas fa-route"></i> Curated by Travel
+                                Style</span>
+                            <h2>Build the trip around what you actually want to <em>do</em></h2>
+                            <p>Some travelers come for surf, some for wildlife, some for culture, and some for all of
+                                it. This page now groups experiences more clearly so you can move from inspiration to
+                                planning without the page feeling scattered.</p>
+                        </div>
+                        <div class="things-intro-stats">
+                            <div class="things-stat-card">
+                                <strong>15+</strong>
+                                <span>Featured experiences</span>
+                            </div>
+                            <div class="things-stat-card">
+                                <strong>4</strong>
+                                <span>Easy activity filters</span>
+                            </div>
+                            <div class="things-stat-card">
+                                <strong>Island-wide</strong>
+                                <span>Coast, hills, culture, and wildlife</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section class="section section-alt" id="activities-grid-section">
+                <div class="container">
+                    <div class="section-heading reveal">
+                        <div class="hero-badge"><i class="fas fa-link"></i> </div>
+                        <h2>Explore Every <em>Experience</em></h2>
+                        <p>Each activity below follows the same card style. Click any card to open the full page with
+                            details, tips, prices, and visitor information.</p>
+                    </div>
+
+                    <div class="acc-filters reveal">
+                        <button class="filter-btn active" data-filter="all" type="button">All</button>
+                        <button class="filter-btn" data-filter="adventure" type="button">Adventure</button>
+                        <button class="filter-btn" data-filter="culture" type="button">Culture</button>
+                        <button class="filter-btn" data-filter="coastal" type="button">Coastal</button>
+                        <button class="filter-btn" data-filter="wildlife" type="button">Wildlife</button>
+                    </div>
+
+                    <div class="activities-grid">
+                        <article class="activity-card reveal" data-category="adventure">
+                            <div class="activity-image">
+                                <span class="activity-badge">Adventure</span>
+                                <img src="../images/kithulgala.jpg" alt="Bungee Jumping in Sri Lanka">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Bungee Jumping in Sri Lanka</h3>
+                                    <p>Open the bungee jumping page for jump details, seasonal timing, prices, and
+                                        safety
+                                        information.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Colombo or
+                                        Kitulgala seasonal event locations</div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-person-falling"></i> Extreme
+                                        Adventure</span>
+                                    <a href="./bungee-jumping-sri-lanka.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="adventure">
+                            <div class="activity-image">
+                                <span class="activity-badge">Adventure</span>
+                                <img src="../images/fiylingrawana.jpg" alt="Flying Ravana Zipline Ella">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Flying Ravana Zipline Ella</h3>
+                                    <p>Open the Ella zipline page with activity details, tips, timing, and pricing.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Ella</div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-bolt"></i> Adventure</span>
+                                    <a href="./flying-ravana-zipline-ella.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="adventure">
+                            <div class="activity-image">
+                                <span class="activity-badge">Adventure</span>
+                                <img src="../images/whitewaterrafting.jpg" alt="White Water Rafting Kitulgala">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>White Water Rafting Kitulgala</h3>
+                                    <p>Open the rafting page for river adventure information and visitor tips.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Kitulgala</div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-water"></i> Adventure</span>
+                                    <a href="./white-water-rafting-kitulgala.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="adventure">
+                            <div class="activity-image">
+                                <span class="activity-badge">Adventure</span>
+                                <img src="../images/canyoningabseilingktulgala.jpg"
+                                    alt="Canyoning and Abseiling Kitulgala">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Canyoning and Abseiling Kitulgala</h3>
+                                    <p>Open the canyoning page to see the waterfall adventure and safety notes.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Kitulgala</div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-mountain"></i> Adventure</span>
+                                    <a href="./canyoning-abseiling-kitulgala.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="adventure">
+                            <div class="activity-image">
+                                <span class="activity-badge">Adventure</span>
+                                <img src="../images/surfing.jpg" alt="Surfing Arugam Bay">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Surfing Arugam Bay</h3>
+                                    <p>Open the surfing page to view wave, lesson, and travel details.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Arugam Bay
+                                    </div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-water"></i> Adventure</span>
+                                    <a href="./surfing-arugam-bay.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+
+
+                        <article class="activity-card reveal" data-category="adventure">
+                            <div class="activity-image">
+                                <span class="activity-badge">Adventure</span>
+                                <img src="../images/hotairbaloon.jpg" alt="Hot Air Balloon Sigiriya and Dambulla">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Hot Air Balloon Sigiriya and Dambulla</h3>
+                                    <p>Open the full balloon experience page covering views around Sigiriya and
+                                        Dambulla.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Sigiriya and
+                                        Dambulla</div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-cloud"></i> Adventure</span>
+                                    <a href="./hot-air-balloon-sigiriya-dambulla.html" class="activity-link">Open Page
+                                        <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="culture">
+                            <div class="activity-image">
+                                <span class="activity-badge">Culture</span>
+                                <img src="../images/culturaleventslocal.jpg"
+                                    alt="Cultural Events and Local Experiences">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Cultural Events and Local Experiences</h3>
+                                    <p>Open the culture page for festivals, temple visits, and local traditions.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Islandwide
+                                    </div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-landmark"></i> Culture</span>
+                                    <a href="./cultural-events-local-experiences.html" class="activity-link">Open Page
+                                        <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="coastal">
+                            <div class="activity-image">
+                                <span class="activity-badge">Coastal</span>
+                                <img src="../images/unawatunabeachrelaxation.jpg" alt="Unawatuna Beach Relaxation">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Unawatuna Beach Relaxation</h3>
+                                    <p>Open the Unawatuna page for beach travel details and relaxation ideas.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Unawatuna</div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-umbrella-beach"></i> Coastal</span>
+                                    <a href="./unawatuna-beach-relaxation.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="coastal">
+                            <div class="activity-image">
+                                <span class="activity-badge">Coastal</span>
+                                <img src="../images/mirissaoceanfrontdining.jpg" alt="Mirissa Oceanfront Dining">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Mirissa Oceanfront Dining</h3>
+                                    <p>Open the Mirissa dining page for beachside dinner and sunset information.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Mirissa</div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-utensils"></i> Coastal</span>
+                                    <a href="./mirissa-oceanfront-dining.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="coastal">
+                            <div class="activity-image">
+                                <span class="activity-badge">Coastal</span>
+                                <img src="../images/mirissa.jpg" alt="Southern Coast Beach and Seafood">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Southern Coast Beach and Seafood</h3>
+                                    <p>Open the southern coast page for beach stops, seafood, and travel ideas.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Southern Coast
+                                    </div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-water"></i> Coastal</span>
+                                    <a href="./southern-coast-beach-and-seafood.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="wildlife">
+                            <div class="activity-image">
+                                <span class="activity-badge">Nature</span>
+                                <img src="../images/bentotariversafari.jpg" alt="Boat Safari in Sri Lanka">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Boat Safari in Sri Lanka</h3>
+                                    <p>Open the boat safari page for river and lagoon wildlife details, prices, and
+                                        travel
+                                        tips.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Bentota, Madu
+                                        River, Negombo, and Kalpitiya</div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-ship"></i> Nature Experience</span>
+                                    <a href="./boat-safari-sri-lanka.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="wildlife">
+                            <div class="activity-image">
+                                <span class="activity-badge">Nature</span>
+                                <img src="../images/hortanpalce.jpg" alt="World's End Hike">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>World's End Hike</h3>
+                                    <p>Open the World's End page for Horton Plains hike details, costs, and the best
+                                        time
+                                        to go.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Horton Plains
+                                        National Park</div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-mountain"></i> Go before 9 AM for a
+                                        clear view</span>
+                                    <a href="./worlds-end-hike.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="wildlife">
+                            <div class="activity-image">
+                                <span class="activity-badge">Nature</span>
+                                <img src="../images/sinharajaentrance.jpg" alt="Sinharaja Rainforest Trek">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Sinharaja Rainforest Trek</h3>
+                                    <p>Open the Sinharaja page for rainforest trek details, costs, and guide
+                                        information.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Sinharaja
+                                        Forest Reserve</div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-tree"></i> Go with a guide and wear
+                                        leech socks</span>
+                                    <a href="./sinharaja-rainforest-trek.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="activity-card reveal" data-category="adventure">
+                            <div class="activity-image">
+                                <span class="activity-badge">Cave</span>
+                                <img src="../images/belilenacave.jpg" alt="Nil Diya Pokuna Blue Cave">
+                            </div>
+                            <div class="activity-body">
+                                <div class="activity-info">
+                                    <h3>Nil Diya Pokuna Blue Cave</h3>
+                                    <p>Open the Nil Diya Pokuna page for cave details, difficulty, and travel costs.</p>
+                                    <div class="activity-location"><i class="fas fa-map-marker-alt"></i> Nil Diya Pokuna
+                                    </div>
+                                </div>
+                                <div class="activity-meta">
+                                    <span class="activity-season"><i class="fas fa-triangle-exclamation"></i> Not ideal
+                                        for beginners or claustrophobic visitors</span>
+                                    <a href="./nil-diya-pokuna-blue-cave.html" class="activity-link">Open Page <i
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="section section-alt things-cta-section">
+                <div class="container reveal text-center">
+                    <h2 class="section-title">Ready for Your <em>Next Adventure?</em></h2>
+                    <p class="section-desc">Our expert guides are ready to take you on the journey of a lifetime. Book
+                        your
+                        custom tour today.</p>
+                    <div class="mt-32 flex-center gap-16">
+                        <a href="../php/packages.php" class="btn-primary">View Packages</a>
+                        <a href="../contact.html" class="nav-btn-ghost marker-outline">Contact Us</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="newsletter things-newsletter">
+                <div class="newsletter-inner reveal">
+                    <h2>Plan Your Sri Lanka Adventure</h2>
+                    <p>Subscribe for exclusive deals, seasonal tips, and hidden gems.</p>
+                    <div class="nl-form">
+                        <input type="email" placeholder="Enter email address" id="nl-email" />
+                        <button id="nl-btn">Subscribe <i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer"></footer>
+        <script src="../js/script.js"></script>
+        <script src="../js/things-to-do.js"></script>
+    </body>
+
+</html>

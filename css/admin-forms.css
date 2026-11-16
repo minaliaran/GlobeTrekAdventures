@@ -1,0 +1,245 @@
+
+
+.admin-form-container {
+    padding: 30px;
+    display: grid;
+    gap: 20px;
+    max-width: 700px;
+}
+
+.admin-form-group {
+    display: grid;
+    gap: 6px;
+}
+
+.admin-form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.admin-form-group input[type="text"],
+.admin-form-group input[type="number"],
+.admin-form-group input[type="email"],
+.admin-form-group input[type="date"],
+.admin-form-group input[type="time"],
+.admin-form-group select,
+.admin-form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.admin-form-group textarea {
+    resize: vertical;
+}
+
+.admin-form-group input[type="number"] {
+    font-family: inherit;
+}
+
+.admin-form-back-link {
+    color: #10b981;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.admin-form-back-link:hover {
+    color: #059669;
+}
+
+.admin-form-button {
+    padding: 14px 30px;
+    width: fit-content;
+}
+
+
+.flash-message {
+    display: grid;
+    gap: 10px;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 4px solid #10b981;
+}
+
+.flash-message.success {
+    background: #f0fdf4;
+    border-left-color: #10b981;
+    color: #10b981;
+}
+
+.flash-message.error {
+    background: #fef2f2;
+    border-left-color: #ef4444;
+    color: #ef4444;
+}
+
+.flash-message.info {
+    background: #f0f9ff;
+    border-left-color: #3b82f6;
+    color: #3b82f6;
+}
+
+.flash-message i {
+    font-size: 18px;
+}
+
+
+.icon-2rem {
+    font-size: 2rem;
+}
+
+.icon-success {
+    color: #10b981;
+}
+
+.icon-blue {
+    color: #3b82f6;
+}
+
+.icon-green {
+    color: #0c8c6e;
+}
+
+.icon-purple {
+    color: #8b5cf6;
+}
+
+.status-badge-confirmed {
+    background: #d1fae5;
+    color: #065f46;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.status-badge-pending {
+    background: #fef3c7;
+    color: #92400e;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.status-badge-cancelled {
+    background: #fee2e2;
+    color: #7f1d1d;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+}
+
+
+.row-confirmed {
+    background: #f0fdf4;
+}
+
+.row-pending {
+    background: #fffbeb;
+}
+
+
+@media (max-width: 768px) {
+    .admin-form-container {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .admin-form-group input,
+    .admin-form-group select,
+    .admin-form-group textarea {
+        font-size: 16px;
+    }
+}
+
+
+.dash-card-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dash-card-link:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.dash-stat-grid-auto {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 20px;
+}
+
+.dash-section-margin {
+    margin-bottom: 30px;
+}
+
+.card-h4 {
+    margin: 0;
+}
+
+.card-desc {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+}
+
+/* --- EXTRACTED FROM JS INLINE STYLES --- */
+.admin-customer-email {
+    font-size: 0.75rem;
+    color: #808080;
+}
+
+.admin-customer-email-dark {
+    font-size: 0.75rem;
+    color: var(--admin-text-dark);
+}
+
+.admin-btn-action-edit {
+    background: none;
+    border: none;
+    color: var(--admin-accent);
+    cursor: pointer;
+}
+
+.admin-no-queries {
+    color: var(--admin-text-dark);
+}
+
+.admin-query-name {
+    margin: 0;
+}
+
+.admin-query-email {
+    color: var(--admin-accent);
+}
+
+.admin-query-date {
+    font-size: 0.8rem;
+    color: var(--admin-text-dark);
+}
+
+.admin-query-subject {
+    margin: 0.5rem 0;
+    font-weight: 600;
+}
+
+

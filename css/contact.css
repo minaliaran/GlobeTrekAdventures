@@ -1,0 +1,430 @@
+
+:root {
+    --bg: #ffffff;
+    --dark: #0b1220;
+    --primary: #0c8c6e;
+    --primary-light: #10b981;
+    --font-display: var(--font-heading);
+    --radius-2xl: 24px;
+    --radius-xl: 20px;
+    --radius-lg: 16px;
+    --radius-md: 12px;
+    --text-secondary: var(--text-light);
+    --border-light: var(--border-color);
+    --bg-gray: #f8fafc;
+    --text-muted: #94a3b8;
+    --text: var(--text-dark);
+}
+
+
+.contact-hero {
+    position: relative;
+    height: 65vh;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.con-hero {
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-hero .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.contact-hero .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(6,30,20,0.88) 0%, rgba(12,140,110,0.55) 100%);
+    z-index: 2;
+}
+
+.contact-hero .hero-overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent 50%, var(--bg) 100%);
+}
+
+.contact-hero .hero-content {
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    max-width: 800px;
+    padding: 0 24px;
+}
+
+.contact-hero .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 100px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--primary-light);
+    margin-bottom: 24px;
+}
+
+.contact-hero .hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(3.2rem, 6.5vw, 4.8rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 30px rgba(0,0,0,0.4);
+}
+
+.contact-hero .hero-title em {
+    color: var(--primary-light);
+    font-style: italic;
+}
+
+.contact-hero .hero-subtitle {
+    font-size: 1.15rem;
+    color: rgba(255,255,255,0.9);
+    max-width: 620px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+
+.contact-section {
+    padding: 80px 0 120px;
+    position: relative;
+    margin-top: -80px;
+    z-index: 20;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+    align-items: start;
+}
+
+
+.contact-info-panel {
+    background: #fff;
+    border-radius: var(--radius-2xl);
+    padding: 60px 48px;
+    color: var(--dark);
+    box-shadow: 0 40px 100px rgba(0,0,0,0.08);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--border-light);
+}
+
+.contact-info-panel::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(16,185,129,0.1) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.info-header {
+    margin-bottom: 48px;
+}
+
+.section-tag {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--primary-light);
+    margin-bottom: 12px;
+    display: block;
+}
+
+.info-header .section-title {
+    font-family: var(--font-display);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.info-header .section-desc {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contact-method-card {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.method-icon {
+    width: 52px;
+    height: 52px;
+    background: rgba(16,185,129,0.1);
+    color: var(--primary-light);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+    border: 1px solid rgba(16,185,129,0.2);
+}
+
+.method-body h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: var(--dark);
+}
+
+.method-body p {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.method-link {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--primary-light);
+}
+
+.social-connect {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid var(--border-light);
+}
+
+.social-connect p {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+    width: 44px;
+    height: 44px;
+    background: var(--bg-gray);
+    border: 1px solid var(--border-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--dark);
+    transition: all 0.3s;
+}
+
+.social-icons a:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(12, 140, 110, 0.3);
+}
+
+
+.contact-form-panel {
+    background: #fff;
+    border-radius: var(--radius-2xl);
+    padding: 60px 56px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.08);
+    border: 1px solid var(--border-light);
+}
+
+.form-header {
+    margin-bottom: 40px;
+}
+
+.form-header h3 {
+    font-family: var(--font-display);
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 12px;
+}
+
+.form-header p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.premium-form .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.premium-form .form-group {
+    margin-bottom: 24px;
+}
+
+.premium-form label {
+    display: block;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 10px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper i {
+    position: absolute;
+    left: 18px;
+    color: var(--text-muted);
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.input-wrapper input,
+.input-wrapper select,
+.input-wrapper textarea {
+    width: 100%;
+    padding: 14px 18px 14px 48px;
+    border: 2px solid var(--border-light);
+    border-radius: var(--radius-md);
+    background: var(--bg-gray);
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--text);
+    transition: all 0.3s;
+    outline: none;
+}
+
+.input-wrapper textarea {
+    padding-top: 14px;
+}
+
+.input-wrapper input:focus,
+.input-wrapper select:focus,
+.input-wrapper textarea:focus {
+    border-color: var(--primary);
+    background: #fff;
+    box-shadow: 0 0 0 4px rgba(12, 140, 110, 0.1);
+}
+
+.input-wrapper input:focus + i,
+.input-wrapper select:focus + i,
+.input-wrapper textarea:focus + i {
+    color: var(--primary);
+}
+
+.btn-form-submit {
+    width: 100%;
+    padding: 18px;
+    background: #ffffff;
+    color: #111827;
+    border: 1.5px solid #111827;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: all 0.3s;
+    margin-top: 12px;
+    box-shadow: 0 10px 30px rgba(12, 140, 110, 0.3);
+}
+
+.btn-form-submit:hover {
+    background: #f4efed;
+    transform: none;
+    box-shadow: none;
+}
+
+
+.map-section {
+    padding-bottom: 80px;
+}
+
+.map-container {
+    height: 480px;
+    border-radius: var(--radius-2xl);
+    background-image: url('../images/countacus.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.custom-map-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(6,30,20,0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-card {
+    background: #fff;
+    padding: 32px;
+    border-radius: var(--radius-xl);
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    max-width: 320px;
+    animation: fadeUp 0.8s ease forwards;
+}
+
+.map-card i {
+    font-size: 2.2rem;
+    color: var(--primary);
+    margin-bottom: 16px;
+}
+
+.map-card p {
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 6px;
+}
+
+.map-card span {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.contact-map-frame {
+    border: 0;
+    border-radius: 20px;
+}

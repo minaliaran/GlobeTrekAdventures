@@ -1,0 +1,235 @@
+<?php
+
+require_once __DIR__ . '/config.php';
+
+$pageTitle = "About Us | GlobeTrek Adventures";
+$bodyClass = "about-page";
+
+include __DIR__ . '/../includes/header.php';
+include __DIR__ . '/../includes/navbar.php';
+?>
+
+<main class="about-root-php">
+    
+    <section class="about-hero">
+        <img src="<?php echo appUrl('images/aboutsrilanka.jpg'); ?>" class="hero-bg" alt="About Hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="about-hero-content">
+            <div class="about-hero-cta-row">
+
+                <a href="#story" class="about-hero-btn about-hero-btn--primary">Read Our Story <i class="fas fa-chevron-right btn-arrow"></i></a>
+       <a href="<?php echo appUrl('contact.html'); ?>" class="about-hero-btn about-hero-btn--ghost">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="about-story-section" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-image-wrap">
+                    <div class="story-image">
+                        <img src="<?php echo appUrl('images/aboutus.png'); ?>" alt="Sri Lanka Heritage">
+                    </div>
+                    <div class="story-image-frame"></div>
+                </div>
+                <div class="story-text">
+                    <div class="story-label">The GlobeTrek Story</div>
+                    <h2>A Passion for the <span class="text-accent">Pearl</span></h2>
+                    <p class="story-lead">Founded on the principles of authenticity and adventure, GlobeTrek started with a simple belief: the most beautiful parts of Sri Lanka are the ones felt, not just seen.</p>
+                    <p>From the misty highlands of Nuwara Eliya to the untouched shores of the East Coast, we've spent a decade curating experiences that go beyond the guidebooks.</p>
+                    <div class="story-pullquote">
+                        <p>We don't just book tours; we craft life-long memories through deep local connections and a commitment to showcasing the true spirit of our island.</p>
+                        <cite>- Founder of GlobeTrek</cite>
+                    </div>
+                    <div class="story-signature">
+                        <img src="<?php echo appUrl('images/ceo.jpg'); ?>" alt="Signature" class="story-signature-avatar">
+                        <div class="story-signature-info">
+                            <span class="story-signature-name">Amara Perera</span>
+                            <span class="story-signature-role">CEO & Lead Explorer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="about-stats-section">
+        <div class="stats-banner">
+            <div class="stat-item">
+                <h3>8<span class="stat-suffix">+</span></h3>
+                <p>UNESCO Sites</p>
+            </div>
+            <div class="stat-item">
+                <h3>10k<span class="stat-suffix">+</span></h3>
+                <p>Happy Travelers</p>
+            </div>
+            <div class="stat-item">
+                <h3>150<span class="stat-suffix">+</span></h3>
+                <p>Local Partners</p>
+            </div>
+            <div class="stat-item">
+                <h3>1.3k</h3>
+                <p>KM of Coastline</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="about-values-section">
+        <div class="container">
+            <div class="about-values-header shared-dark-header">
+                <div class="section-eyebrow shared-dark-eyebrow">Our Values</div>
+                <h2>What <em>Defines</em> Us</h2>
+                <p>The principles that guide every journey we curate and every connection we make.</p>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <span class="value-number">01</span>
+                    <div class="value-icon"><i class="fas fa-leaf"></i></div>
+                    <h4>Sustainability</h4>
+                    <p>We are dedicated to preserving the natural beauty and cultural heritage of Sri Lanka for future generations.</p>
+                </div>
+                <div class="value-card value-card--gold">
+                    <span class="value-number">02</span>
+                    <div class="value-icon"><i class="fas fa-heart"></i></div>
+                    <h4>Authenticity</h4>
+                    <p>Our focus is on genuine local experiences that provide a deep connection to the island's rhythm and soul.</p>
+                </div>
+                <div class="value-card value-card--sky">
+                    <span class="value-number">03</span>
+                    <div class="value-icon"><i class="fas fa-gem"></i></div>
+                    <h4>Premium Quality</h4>
+                    <p>From luxury transport to handpicked stays, we ensure every detail meets the highest standard of excellence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="about-divider">
+        <div class="about-divider-icon"></div>
+    </div>
+
+    
+    <section class="about-team-section">
+        <div class="container">
+            <div class="about-team-header shared-dark-header">
+                <div class="section-eyebrow shared-dark-eyebrow">Our Team</div>
+                <h2>The <em>Dream</em> Team</h2>
+                <p>Meet the passionate individuals behind your unforgettable Sri Lankan adventures.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="<?php echo appUrl('images/headofexpeditions.jpg'); ?>" alt="Head of Expeditions">
+                    </div>
+                    <h4>Arjun Silva</h4>
+                    <div class="team-role">Head of Expeditions</div>
+                    <p class="team-bio">15 years exploring the hidden trails of the Knuckles Range.</p>
+                    <div class="team-socials">
+                        <a href="contact.html" class="team-social-link" aria-label="Contact Arjun Silva"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="contact.html" class="team-social-link" aria-label="Contact Arjun Silva on social"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="<?php echo appUrl('images/sustainabletravellead.jpg'); ?>" alt="Sustainable Travel Lead">
+                    </div>
+                    <h4>Maleesha Fernando</h4>
+                    <div class="team-role">Sustainable Travel Lead</div>
+                    <p class="team-bio">Expert in eco-tourism and community-based travel experiences.</p>
+                    <div class="team-socials">
+                        <a href="contact.html" class="team-social-link" aria-label="Contact Maleesha Fernando"><i class="fab fa-instagram"></i></a>
+                        <a href="contact.html" class="team-social-link" aria-label="Contact Maleesha Fernando on social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="<?php echo appUrl('images/chiefconcierge.jpg'); ?>" alt="Chief Concierge">
+                    </div>
+                    <h4>Kasun Perera</h4>
+                    <div class="team-role">Chief Concierge</div>
+                    <p class="team-bio">Crafting personalized luxury stays from Galle to Trincomalee.</p>
+                    <div class="team-socials">
+                        <a href="contact.html" class="team-social-link" aria-label="Contact Kasun Perera"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="<?php echo appUrl('images/localheritageguide.jpg'); ?>" alt="Local Heritage Guide">
+                    </div>
+                    <h4>Ishara Jayakody</h4>
+                    <div class="team-role">Local Heritage Guide</div>
+                    <p class="team-bio">Specialist in Ancient Cities and Sri Lankan historical narratives.</p>
+                    <div class="team-socials">
+                        <a href="contact.html" class="team-social-link" aria-label="Contact Ishara Jayakody"><i class="fab fa-facebook-f"></i></a>
+                        <a href="contact.html" class="team-social-link" aria-label="Contact Ishara Jayakody on social"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="about-timeline-section">
+        <div class="container">
+            <div class="about-timeline-header shared-dark-header">
+                <div class="section-eyebrow shared-dark-eyebrow">Our Journey</div>
+                <h2>Our <em>Milestones</em></h2>
+                <p>A decade of adventures, growth, and authentic connections.</p>
+            </div>
+            <div class="about-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2015</div>
+                        <h4>The Beginning</h4>
+                        <p>GlobeTrek was founded with a single jeep and a passion for the Ella highlands.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2018</div>
+                        <h4>Sustainable Focus</h4>
+                        <p>Launched our first eco-conscious tour series, partnering with local villages.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2021</div>
+                        <h4>National Recognition</h4>
+                        <p>Awarded "Best Authentic Experience" by the Sri Lanka Tourism Board.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2025</div>
+                        <h4>Global Reach</h4>
+                        <p>Connecting thousands of international travelers to the soul of our island.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="about-partners-section">
+        <div class="about-partners-label">Trusted By Local & Global Partners</div>
+        <div class="about-partners-track">
+            <img src="<?php echo appUrl('images/airlinesLogo.jpg'); ?>" alt="Srilankan Airlines" class="about-partner-logo">
+            <img src="<?php echo appUrl('images/jetwinghotel.jpg'); ?>" alt="Jetwing Hotels" class="about-partner-logo">
+            <img src="<?php echo appUrl('images/pickme.jpg'); ?>" class="about-partner-logo" alt="pickme" class="about-partner-logo">
+            <img src="<?php echo appUrl('images/amanresorts.jpg'); ?>" alt="Aman Resorts" class="about-partner-logo">
+            <img src="<?php echo appUrl('images/uber.jpg'); ?>" alt="uber" class="about-partner-logo">
+        </div>
+    </section>
+
+</main>
+
+<?php include __DIR__ . '/../includes/footer.php'; ?>

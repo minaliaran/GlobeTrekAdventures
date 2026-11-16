@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobeTrek Adventures | Sri Lanka Travel Guide</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+   
+    <link rel="stylesheet" href="css/navigation.css">
+</head>
+<body>
+
+    <header class="navbar" id="navbar"></header>
+
+    
+    
+    <section class="guide-hero">
+        <img src="images/guide-hero-premium.png" class="hero-bg" alt="Travel Guide">
+        <div class="hero-overlay"></div>
+
+        <div class="guide-hero-content reveal">
+
+            <p class="guide-hero-label"><i class="fas fa-compass"></i> Sri Lanka Expert Tips</p>
+            <h1 class="guide-hero-title">Travel <em>Guide</em></h1>
+            <p class="guide-hero-subtitle">Everything you need to know before visiting the Pearl of the Indian Ocean.</p>
+        </div>
+    </section>
+
+    
+    <div class="guide-tabs-bar" id="guide-tabs-bar">
+        <div class="guide-tabs">
+            <button class="guide-tab active" data-target="best-time" id="tab-best-time" type="button">
+                <i class="fas fa-calendar-alt"></i> Best Time
+            </button>
+            <button class="guide-tab" data-target="essentials" id="tab-essentials" type="button">
+                <i class="fas fa-info-circle"></i> Essentials
+            </button>
+            <button class="guide-tab" data-target="food" id="tab-food" type="button">
+                <i class="fas fa-utensils"></i> Food &amp; Culture
+            </button>
+            <button class="guide-tab" data-target="budget" id="tab-budget" type="button">
+                <i class="fas fa-wallet"></i> Budget Guide
+            </button>
+            <button class="guide-tab" data-target="visa" id="tab-visa" type="button">
+                <i class="fas fa-passport"></i> Visa &amp; Entry
+            </button>
+            <button class="guide-tab" data-target="packing" id="tab-packing" type="button">
+                <i class="fas fa-suitcase"></i> Packing List
+            </button>
+            <button class="guide-tab" data-target="phrases" id="tab-phrases" type="button">
+                <i class="fas fa-comments"></i> Phrases
+            </button>
+        </div>
+    </div>
+
+    
+    <section class="guide-section reveal" id="best-time">
+        <div class="container">
+            <div class="guide-section-header">
+                <span class="guide-section-label"><i class="fas fa-sun"></i> When to Go</span>
+                <h2 class="guide-section-title">Best Time to Visit Sri Lanka</h2>
+                <p class="guide-section-desc">Sri Lanka's two monsoon seasons mean the best months depend on which region you're exploring. Use our month-by-month guide to plan perfectly.</p>
+            </div>
+
+            <div class="month-grid">
+                <div class="month-card peak">
+                    <div class="month-icon"><i class="fas fa-sun"></i></div>
+                    <div class="month-name">Jan</div>
+                    <span class="month-badge">Peak</span>
+                    <div class="month-temp">27-30&deg;C</div>
+                </div>
+                <div class="month-card peak">
+                    <div class="month-icon"><i class="fas fa-sun"></i></div>
+                    <div class="month-name">Feb</div>
+                    <span class="month-badge">Peak</span>
+                    <div class="month-temp">27-31&deg;C</div>
+                </div>
+                <div class="month-card shoulder">
+                    <div class="month-icon"><i class="fas fa-cloud-sun"></i></div>
+                    <div class="month-name">Mar</div>
+                    <span class="month-badge">Shoulder</span>
+                    <div class="month-temp">28-32&deg;C</div>
+                </div>
+                <div class="month-card shoulder">
+                    <div class="month-icon"><i class="fas fa-cloud-sun-rain"></i></div>
+                    <div class="month-name">Apr</div>
+                    <span class="month-badge">Shoulder</span>
+                    <div class="month-temp">28-32&deg;C</div>
+                </div>
+                <div class="month-card off">
+                    <div class="month-icon"><i class="fas fa-cloud-rain"></i></div>
+                    <div class="month-name">May</div>
+                    <span class="month-badge">Off</span>
+                    <div class="month-temp">27-30&deg;C</div>
+                </div>
+                <div class="month-card off">
+                    <div class="month-icon"><i class="fas fa-cloud-rain"></i></div>
+                    <div class="month-name">Jun</div>
+                    <span class="month-badge">Off</span>
+                    <div class="month-temp">26-29&deg;C</div>
+                </div>
+                <div class="month-card off">
+                    <div class="month-icon"><i class="fas fa-cloud-rain"></i></div>
+                    <div class="month-name">Jul</div>
+                    <span class="month-badge">Off</span>
+                    <div class="month-temp">26-29&deg;C</div>
+                </div>
+                <div class="month-card shoulder">
+                    <div class="month-icon"><i class="fas fa-cloud-sun"></i></div>
+                    <div class="month-name">Aug</div>
+                    <span class="month-badge">Shoulder</span>
+                    <div class="month-temp">27-30&deg;C</div>
+                </div>
+                <div class="month-card shoulder">
+                    <div class="month-icon"><i class="fas fa-cloud-sun"></i></div>
+                    <div class="month-name">Sep</div>
+                    <span class="month-badge">Shoulder</span>
+                    <div class="month-temp">27-30&deg;C</div>
+                </div>
+                <div class="month-card off">
+                    <div class="month-icon"><i class="fas fa-cloud-rain"></i></div>
+                    <div class="month-name">Oct</div>
+                    <span class="month-badge">Off</span>
+                    <div class="month-temp">26-29&deg;C</div>
+                </div>
+                <div class="month-card peak">
+                    <div class="month-icon"><i class="fas fa-sun"></i></div>
+                    <div class="month-name">Nov</div>
+                    <span class="month-badge">Peak</span>
+                    <div class="month-temp">26-29&deg;C</div>
+                </div>
+                <div class="month-card peak">
+                    <div class="month-icon"><i class="fas fa-sun"></i></div>
+                    <div class="month-name">Dec</div>
+                    <span class="month-badge">Peak</span>
+                    <div class="month-temp">26-29&deg;C</div>
+                </div>
+            </div>
+
+            <div class="season-legend">
+                <div class="legend-item"><span class="legend-dot peak"></span> Peak Season - Best weather, higher prices</div>
+                <div class="legend-item"><span class="legend-dot shoulder"></span> Shoulder Season - Good weather, moderate prices</div>
+                <div class="legend-item"><span class="legend-dot off"></span> Off Season - Monsoon rains, budget deals</div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="guide-section reveal" id="essentials">
+        <div class="container">
+            <div class="guide-section-header">
+                <span class="guide-section-label"><i class="fas fa-info-circle"></i> Know Before You Go</span>
+                <h2 class="guide-section-title">Travel Essentials</h2>
+                <p class="guide-section-desc">Key information every traveller should know before arriving in Sri Lanka.</p>
+            </div>
+
+            <div class="info-cards-grid">
+                <div class="info-card">
+                    <div class="info-card-icon"><i class="fas fa-plug"></i></div>
+                    <div class="info-card-body">
+                        <h4>Electricity</h4>
+                        <p>230V / 50Hz. Type D &amp; G plug sockets. Bring a universal adaptor.</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-card-icon"><i class="fas fa-money-bill-wave"></i></div>
+                    <div class="info-card-body">
+                        <h4>Currency</h4>
+                        <p>Sri Lankan Rupee (LKR). ATMs widely available in cities. USD accepted at tourist spots.</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-card-icon"><i class="fas fa-language"></i></div>
+                    <div class="info-card-body">
+                        <h4>Language</h4>
+                        <p>Sinhala &amp; Tamil are official languages. English is widely spoken in tourist areas.</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-card-icon"><i class="fas fa-hospital"></i></div>
+                    <div class="info-card-body">
+                        <h4>Health</h4>
+                        <p>No mandatory vaccinations. Hepatitis A &amp; Typhoid recommended. Tap water not safe to drink.</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-card-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="info-card-body">
+                        <h4>SIM Cards</h4>
+                        <p>Dialog, Mobitel &amp; Airtel offer tourist SIMs at the airport. 4G widely available.</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-card-icon"><i class="fas fa-clock"></i></div>
+                    <div class="info-card-body">
+                        <h4>Time Zone</h4>
+                        <p>Sri Lanka Standard Time (SLST) - UTC +5:30. No daylight saving time observed.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guide-tip tip-amber mt-32">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div class="guide-tip-body">
+                    <strong>Dress Respectfully at Temples</strong>
+                    <span>Always cover your shoulders and knees when visiting Buddhist and Hindu temples. Remove shoes before entering. A sarong is often available to borrow.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="guide-section reveal" id="food">
+        <div class="container">
+            <div class="guide-section-header">
+                <span class="guide-section-label"><i class="fas fa-utensils"></i> Taste the Island</span>
+                <h2 class="guide-section-title">Food &amp; Culture</h2>
+                <p class="guide-section-desc">Sri Lankan cuisine is bold, spiced, and unforgettable. Here are the dishes you absolutely must try.</p>
+            </div>
+
+            <div class="food-grid">
+                <div class="food-card">
+                    <div class="food-emoji"><i class="fas fa-bread-slice"></i></div>
+                    <div class="food-body">
+                        <h4>Hoppers (Appa)</h4>
+                        <p>Bowl-shaped rice flour pancakes, eaten at breakfast with sambol or a fried egg inside.</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="food-emoji"><i class="fas fa-bowl-rice"></i></div>
+                    <div class="food-body">
+                        <h4>Rice & Curry</h4>
+                        <p>The national dish - steamed rice with a vibrant array of curries, dal, and coconut sambol.</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="food-emoji"><i class="fas fa-shrimp"></i></div>
+                    <div class="food-body">
+                        <h4>Crab Curry</h4>
+                        <p>Colombo's famous mud crab cooked in a fiery coconut milk curry. A must at Ministry of Crab.</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="food-emoji"><i class="fas fa-utensils"></i></div>
+                    <div class="food-body">
+                        <h4>Kottu Roti</h4>
+                        <p>Shredded roti stir-fried with vegetables, egg, and meat on a hot griddle - iconic street food.</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="food-emoji"><i class="fas fa-pepper-hot"></i></div>
+                    <div class="food-body">
+                        <h4>Pol Sambol</h4>
+                        <p>Fresh coconut relish with red chilli, lime, and Maldive fish - served with almost every meal.</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="food-emoji"><i class="fas fa-ice-cream"></i></div>
+                    <div class="food-body">
+                        <h4>Watalappan</h4>
+                        <p>A rich Malay-influenced coconut custard dessert made with jaggery and spices. Heavenly.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guide-tip tip-green mt-32">
+                <i class="fas fa-lightbulb"></i>
+                <div class="guide-tip-body">
+                    <strong>Pro Tip: Eat Local</strong>
+                    <span>Local 'rice and curry' restaurants serve enormous meals for under $2. Skip the tourist menus when you can - the street food is where the real flavour is.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="guide-section reveal" id="budget">
+        <div class="container">
+            <div class="guide-section-header">
+                <span class="guide-section-label"><i class="fas fa-wallet"></i> Plan Your Spend</span>
+                <h2 class="guide-section-title">Budget Guide</h2>
+                <p class="guide-section-desc">Sri Lanka can be explored on any budget. Here's a realistic daily spend breakdown to help you plan.</p>
+            </div>
+
+            <div class="budget-table-wrap">
+                <table class="budget-table">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th><span class="budget-tag budget">Budget</span></th>
+                            <th><span class="budget-tag mid">Mid-Range</span></th>
+                            <th><span class="budget-tag luxury">Luxury</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fas fa-bed primary-icon mr-8"></i> Accommodation / night</td>
+                            <td>$8 - $20</td>
+                            <td>$40 - $100</td>
+                            <td>$150 - $500+</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-utensils primary-icon mr-8"></i> Meals / day</td>
+                            <td>$3 - $8</td>
+                            <td>$15 - $35</td>
+                            <td>$50 - $150+</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-bus primary-icon mr-8"></i> Transport / day</td>
+                            <td>$2 - $8</td>
+                            <td>$20 - $50</td>
+                            <td>$80 - $200+</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-ticket-alt primary-icon mr-8"></i> Activities / day</td>
+                            <td>$5 - $15</td>
+                            <td>$20 - $60</td>
+                            <td>$80 - $300+</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Estimated Daily Total</strong></td>
+                            <td><strong>$18 - $51</strong></td>
+                            <td><strong>$95 - $245</strong></td>
+                            <td><strong>$360 - $1150+</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="guide-tip tip-green mt-28">
+                <i class="fas fa-lightbulb"></i>
+                <div class="guide-tip-body">
+                    <strong>Money-Saving Tips</strong>
+                    <span>Travel by train instead of private transfers. Book guesthouses directly to avoid agency markups. Visit national parks on weekdays when entry queues are shorter and prices sometimes lower.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="guide-section reveal" id="visa">
+        <div class="container">
+            <div class="guide-section-header">
+                <span class="guide-section-label"><i class="fas fa-passport"></i> Entry Requirements</span>
+                <h2 class="guide-section-title">Visa &amp; Entry</h2>
+                <p class="guide-section-desc">Most visitors need an Electronic Travel Authorisation (ETA) before arriving. Here's how to get it.</p>
+            </div>
+
+            <div class="guide-two-col">
+                <div class="visa-box">
+                    <h3><i class="fas fa-passport"></i> How to Apply for an ETA</h3>
+                    <div class="visa-steps">
+                        <div class="visa-step">
+                            <div class="visa-step-num">1</div>
+                            <div class="visa-step-body">
+                                <strong>Visit the Official ETA Portal</strong>
+                                <span>Go to eta.gov.lk - the only official government website. Beware of scam sites charging extra.</span>
+                            </div>
+                        </div>
+                        <div class="visa-step">
+                            <div class="visa-step-num">2</div>
+                            <div class="visa-step-body">
+                                <strong>Complete the Application</strong>
+                                <span>Fill in your passport details, travel dates, and accommodation information accurately.</span>
+                            </div>
+                        </div>
+                        <div class="visa-step">
+                            <div class="visa-step-num">3</div>
+                            <div class="visa-step-body">
+                                <strong>Pay the Fee</strong>
+                                <span>Tourist ETA costs $20 USD (single entry, 30 days). Pay by credit card on the secure portal.</span>
+                            </div>
+                        </div>
+                        <div class="visa-step">
+                            <div class="visa-step-num">4</div>
+                            <div class="visa-step-body">
+                                <strong>Receive Your ETA by Email</strong>
+                                <span>Usually approved within 24 hours. Print a copy and keep a digital backup on your phone.</span>
+                            </div>
+                        </div>
+                        <div class="visa-step">
+                            <div class="visa-step-num">5</div>
+                            <div class="visa-step-body">
+                                <strong>Extend if Needed</strong>
+                                <span>Extensions up to 6 months can be applied for at the Department of Immigration in Colombo.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="guide-checklist">
+                        <div class="check-item"><i class="fas fa-check-circle"></i> <span>Passport valid for at least 6 months</span></div>
+                        <div class="check-item"><i class="fas fa-check-circle"></i> <span>Return or onward ticket required</span></div>
+                        <div class="check-item"><i class="fas fa-check-circle"></i> <span>Proof of sufficient funds</span></div>
+                        <div class="check-item"><i class="fas fa-check-circle"></i> <span>Hotel booking for first night</span></div>
+                        <div class="check-item"><i class="fas fa-check-circle"></i> <span>ETA approval printed</span></div>
+                        <div class="check-item"><i class="fas fa-check-circle"></i> <span>Travel insurance</span></div>
+                    </div>
+
+                    <div class="guide-tip tip-red mt-20">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <div class="guide-tip-body">
+                            <strong>Note:</strong>
+                            <span>Check official sources for the latest visa exemption lists.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="guide-section reveal" id="packing">
+        <div class="container">
+            <div class="guide-section-header">
+                <span class="guide-section-label"><i class="fas fa-suitcase"></i> What to Bring</span>
+                <h2 class="guide-section-title">Packing List</h2>
+                <p class="guide-section-desc">Pack light but smart for Sri Lanka's diverse terrain and climate.</p>
+            </div>
+
+            <div class="packing-cols">
+                <div class="packing-col">
+                    <div class="packing-col-title"><i class="fas fa-tshirt"></i> Clothing</div>
+                    <div class="packing-item"><i class="fas fa-circle-dot"></i> Lightweight shirts</div>
+                    <div class="packing-item"><i class="fas fa-circle-dot"></i> Modest temple attire</div>
+                    <div class="packing-item"><i class="fas fa-circle-dot"></i> Light rain jacket</div>
+                    <div class="packing-item"><i class="fas fa-circle-dot"></i> Swimwear</div>
+                </div>
+                <div class="packing-col">
+                    <div class="packing-col-title"><i class="fas fa-kit-medical"></i> Health</div>
+                    <div class="packing-item"><i class="fas fa-circle-dot"></i> Sunscreen &amp; Repellent</div>
+                    <div class="packing-item"><i class="fas fa-circle-dot"></i> First-aid kit</div>
+                    <div class="packing-item"><i class="fas fa-circle-dot"></i> Personal meds</div>
+                </div>
+                <div class="packing-col">
+                    <div class="packing-col-title"><i class="fas fa-plug"></i> Gear</div>
+                    <div class="packing-item"><i class="fas fa-circle-dot"></i> Travel adaptor</div>
+                    <div class="packing-item"><i class="fas fa-circle-dot"></i> Power bank</div>
+                    <div class="packing-item"><i class="fas fa-circle-dot"></i> Documents copies</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="guide-section reveal" id="phrases">
+        <div class="container">
+            <div class="guide-section-header">
+                <span class="guide-section-label"><i class="fas fa-comments"></i> Connect Locally</span>
+                <h2 class="guide-section-title">Useful Sinhala Phrases</h2>
+                <p class="guide-section-desc">Small words go a long way in Sri Lanka.</p>
+            </div>
+
+            <div class="phrase-grid">
+                <div class="phrase-card">
+                    <div class="phrase-sinhala">ආයුබෝවන්</div>
+                    <div class="phrase-roman">Ayubowan</div>
+                    <div class="phrase-english">Hello / Welcome</div>
+                </div>
+                <div class="phrase-card">
+                    <div class="phrase-sinhala">ස්තුතියි</div>
+                    <div class="phrase-roman">Sthuthi</div>
+                    <div class="phrase-english">Thank You</div>
+                </div>
+                <div class="phrase-card">
+                    <div class="phrase-sinhala">කීයද?</div>
+                    <div class="phrase-roman">Kiyada?</div>
+                    <div class="phrase-english">How much?</div>
+                </div>
+                <div class="phrase-card">
+                    <div class="phrase-sinhala">ලස්සනයි</div>
+                    <div class="phrase-roman">Lassanayi</div>
+                    <div class="phrase-english">Beautiful!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-inner reveal">
+            <h2>Plan Your Sri Lanka Adventure</h2>
+            <p>Subscribe for exclusive deals, seasonal tips, and hidden gems.</p>
+            <div class="nl-form">
+                <input type="email" placeholder="Enter email address" id="nl-email" />
+                <button id="nl-btn">Subscribe <i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer"></footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+    <script src="js/script.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/guide.js"></script>
+</body>
+</html>

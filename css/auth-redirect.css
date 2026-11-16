@@ -1,0 +1,47 @@
+:root {
+    --redirect-bg: #f8fafc;
+    --redirect-text: #0f172a;
+    --redirect-surface: #ffffff;
+    --redirect-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+
+body.auth-redirect {
+    font-family: Inter, Arial, sans-serif;
+    background: var(--redirect-bg);
+    color: var(--redirect-text);
+    margin: 0;
+}
+
+.auth-redirect-main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+}
+
+.auth-redirect-card {
+    max-width: 520px;
+    width: 100%;
+    background: var(--redirect-surface);
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: var(--redirect-shadow);
+    text-align: center;
+}
+
+.auth-redirect-card h1 {
+    margin-top: 0;
+}
+
+.auth-redirect-card p {
+    line-height: 1.6;
+}
+
+.auth-redirect-card p + p {
+    margin-top: 12px;
+}
+
+.auth-redirect-actions {
+    margin-top: 24px;
+}
+

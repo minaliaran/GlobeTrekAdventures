@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GlobeTrek Adventures Discover Sri Lanka</title>
+        <link rel="icon" type="image/png" href="../images/favicon.png">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/layout.css">
+        <link rel="stylesheet" href="../css/components.css">
+        <link rel="stylesheet" href="../css/destinations.css">
+        <link rel="stylesheet" href="../css/navigation.css">
+
+    </head>
+
+    <body>
+        <header class="navbar" id="navbar"></header>
+        
+        
+        <section class="page-hero">
+            <div class="hero-img-bg">
+                <img src="../images/destination.jpg" alt="Sri Lanka Destinations">
+            </div>
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+                <div class="hero-eyebrow">Island Wonders</div>
+                <h1 class="hero-title">Experience <em>Sri Lanka</em></h1>
+                <p class="hero-subtitle">From mist-covered mountains to sun-kissed beaches, discover the emerald of the Indian Ocean.</p>
+
+                
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-value">25<span>+</span></div>
+                        <div class="hero-stat-label">Destinations</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-value">120<span>+</span></div>
+                        <div class="hero-stat-label">Tour Guides</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-value">4.9</div>
+                        <div class="hero-stat-label">User Rating</div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="hero-scroll-hint">
+                <span>Explore More</span>
+                <div class="hero-scroll-line"></div>
+            </div>
+        </section>
+
+        
+        <main class="dest-root">
+            
+            <div class="dest-filter-section">
+                <div class="container dest-filter-toolbar">
+                    <div class="dest-filter-bar">
+                        <button class="active" data-filter="all">All <span class="filter-count">21</span></button>
+                        <button data-filter="heritage">Heritage</button>
+                        <button data-filter="coastal">Coastal</button>
+                        <button data-filter="hill-country">Hill Country</button>
+                        <button data-filter="wildlife">Wildlife</button>
+                        <button data-filter="adventure">Adventure</button>
+                    </div>
+
+                    
+                    <div class="dest-view-options">
+                        <div class="dest-sort-select">
+                            <i class="fas fa-sort-amount-down"></i>
+                            <select id="dest-sort">
+                                <option value="popularity">Popularity</option>
+                                <option value="rating">Top Rated</option>
+                                <option value="price-asc">Price: Low to High</option>
+                                <option value="price-desc">Price: High to Low</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="destinations-wrapper">
+                <div class="destinations-grid">
+
+                    
+                    <a href="sigiriya/sigiriya.html" id="sigiriya" class="dest-card dest-card--featured dest-card--new">
+                        <div class="dest-card-img">
+                            <img src="../images/sigiriya.jpg" alt="Sigiriya Rock Fortress">
+
+                        </div>
+                        <div class="dest-card-meta-top">
+                            <span class="dest-badge dest-badge--gold"><i class="fas fa-crown"></i> Featured</span>
+                            <button class="dest-fav-btn"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Matale District</div>
+                                <h3>Sigiriya Rock Fortress</h3>
+                                <p>Ancient sky palace and fortress complex significant for its archaeological
+                                    importance.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating">
+                                        <div class="dest-stars">
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                        </div>
+                                        <span class="dest-rating-text"><strong>5.0</strong> (2.4k reviews)</span>
+                                    </div>
+                                    <div class="dest-price">
+                                        <span class="dest-price-from">From</span>
+                                        <span class="dest-price-value"><span class="currency">$</span>45</span>
+                                        <span class="dest-price-per">/person</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="kandy/kandy.html" id="kandy" class="dest-card">
+                        <div class="dest-card-img">
+                            <img src="../images/kandy.jpg" alt="Temple of the Tooth">
+                        </div>
+                        <div class="dest-card-meta-top">
+                            <span class="dest-badge dest-badge--violet">Cultural</span>
+                            <button class="dest-fav-btn"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Central Province</div>
+                                <h3>Kandy Hub</h3>
+                                <p>Imperial city of the last kings, spiritual heart of the island.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating">
+                                        <div class="dest-stars">
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star--empty"></i>
+                                        </div>
+                                        <span class="dest-rating-text"><strong>4.8</strong></span>
+                                    </div>
+                                    <div class="dest-price">
+                                        <span class="dest-price-value"><span class="currency">$</span>35</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="ella/ella.html" id="ella" class="dest-card">
+                        <div class="dest-card-img">
+                            <img src="../images/ella.jpg" alt="Nine Arch Bridge">
+                        </div>
+                        <div class="dest-card-meta-top">
+                            <span class="dest-badge dest-badge--accent">Nature</span>
+                            <button class="dest-fav-btn"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Badulla District</div>
+                                <h3>Ella Village</h3>
+                                <p>Misty mountain range and cascading waterfalls in the central highlands.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating">
+                                        <div class="dest-stars">
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                        </div>
+                                        <span class="dest-rating-text"><strong>4.9</strong></span>
+                                    </div>
+                                    <div class="dest-price">
+                                        <span class="dest-price-value"><span class="currency">$</span>30</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="galle/galle.html" id="galle" class="dest-card">
+                        <div class="dest-card-img">
+                            <img src="../images/galle.jpg" alt="Galle Lighthouse">
+                        </div>
+                        <div class="dest-card-meta-top">
+                            <span class="dest-badge dest-badge--sky">Coastal</span>
+                            <button class="dest-fav-btn is-fav"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i>Southern Province</div>
+                                <h3>Galle Old Fort</h3>
+                                <p>Living colonial heritage city surrounded by ocean ramparts.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating">
+                                        <div class="dest-stars">
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star--empty"></i>
+                                        </div>
+                                        <span class="dest-rating-text"><strong>4.7</strong></span>
+                                    </div>
+                                    <div class="dest-price">
+                                        <span class="dest-price-value"><span class="currency">$</span>40</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="mirissa/mirissa.html" id="mirissa" class="dest-card">
+                        <div class="dest-card-img">
+                            <img src="../images/mirissa.jpg" alt="Mirissa Beach">
+                        </div>
+                        <div class="dest-card-meta-top">
+                            <span class="dest-badge dest-badge--sky">Coastal</span>
+                            <button class="dest-fav-btn"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Matara District</div>
+                                <h3>Mirissa Bay</h3>
+                                <p>Pristine beaches, secret snorkeling spots, and whale watching tours.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating">
+                                        <div class="dest-stars">
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star--empty"></i>
+                                        </div>
+                                        <span class="dest-rating-text"><strong>4.6</strong></span>
+                                    </div>
+                                    <div class="dest-price">
+                                        <span class="dest-price-value"><span class="currency">$</span>25</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="yala/yala.html" id="yala" class="dest-card">
+                        <div class="dest-card-img">
+                            <img src="../images/yala.jpg" alt="Yala Wild Safari">
+                        </div>
+                        <div class="dest-card-meta-top">
+                            <span class="dest-badge dest-badge--rose">Wildlife</span>
+                            <button class="dest-fav-btn"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Hambantota District
+                                </div>
+                                <h3>Yala Safari</h3>
+                                <p>World-famous park with the highest density of leopards on Earth.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating">
+                                        <div class="dest-stars">
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                            <i class="fas fa-star dest-star"></i>
+                                        </div>
+                                        <span class="dest-rating-text"><strong>4.9</strong></span>
+                                    </div>
+                                    <div class="dest-price">
+                                        <span class="dest-price-from">Safari From</span>
+                                        <span class="dest-price-value"><span class="currency">$</span>65</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="nuwaraeliya/nuwaraeliya.html" id="nuwara-eliya" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/nuwaraeliya.jpg" alt="Nuwara Eliya Tea Gardens">
+                        </div>
+                        <div class="dest-card-meta-top"><span class="dest-badge dest-badge--accent">Hill
+                                Country</span><button class="dest-fav-btn"><i class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Central Province</div>
+                                <h3>Nuwara Eliya</h3>
+                                <p>Little England of Sri Lanka, known for its rolling tea estates and cool climate.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.8</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>40</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="thrincomalee/trincomalee.html" id="trincomalee" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/thrincomalee.jpg" alt="Trincomalee Coast"></div>
+                        <div class="dest-card-meta-top"><span class="dest-badge dest-badge--sky">Coastal</span><button
+                                class="dest-fav-btn"><i class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Eastern Province</div>
+                                <h3>Trincomalee</h3>
+                                <p>Deepwater port city with pristine white sand beaches and historic temples.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.7</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>35</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="colombo/colombo.html" id="colombo" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/colombobackground.jpg" alt="Colombo Cityscape">
+                        </div>
+                        <div class="dest-card-meta-top"><span
+                                class="dest-badge dest-badge--violet">Heritage</span><button class="dest-fav-btn"><i
+                                    class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Western Province</div>
+                                <h3>Colombo Hub</h3>
+                                <p>The vibrant commercial capital blending colonial architecture with modern luxury.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.6</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>25</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="arugambay/arugambay.html" id="arugam-bay" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/arugambay.jpg" alt="Arugam Bay Surf"></div>
+                        <div class="dest-card-meta-top"><span
+                                class="dest-badge dest-badge--gold">Adventure</span><button class="dest-fav-btn"><i
+                                    class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Eastern Province</div>
+                                <h3>Arugam Bay</h3>
+                                <p>World-renowned surfing destination with a laid-back bohemian vibe.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.9</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>30</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="anuradhapura/anuradhapura.html" id="anuradhapura" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/auradhpura.jpg" alt="Anuradhapura Ruins"></div>
+                        <div class="dest-card-meta-top"><span
+                                class="dest-badge dest-badge--violet">Heritage</span><button class="dest-fav-btn"><i
+                                    class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> North Central</div>
+                                <h3>Anuradhapura</h3>
+                                <p>The sacred ancient capital, home to immense stupas and the Bodhi Tree.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.8</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>20</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="polonnaruwa/polonnaruwa.html" id="polonnaruwa" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/polonnaruwa.jpg" alt="Polonnaruwa"></div>
+                        <div class="dest-card-meta-top"><span
+                                class="dest-badge dest-badge--violet">Heritage</span><button class="dest-fav-btn"><i
+                                    class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> North Central</div>
+                                <h3>Polonnaruwa</h3>
+                                <p>The second most ancient kingdom featuring spectacularly preserved stone carvings.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.7</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>25</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="udawalawe/udawalawe.html" id="udawalawe" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/udawalve.jpg" alt="Udawalawe Elephants"></div>
+                        <div class="dest-card-meta-top"><span class="dest-badge dest-badge--rose">Wildlife</span><button
+                                class="dest-fav-btn"><i class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Sabaragamuwa</div>
+                                <h3>Udawalawe Safari</h3>
+                                <p>Open grasslands guaranteeing wild elephant sightings year-round.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.9</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>55</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="hikkaduwa/hikkaduwa.html" id="hikkaduwa" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/hikkaduwa.jpg" alt="Hikkaduwa Surf"></div>
+                        <div class="dest-card-meta-top"><span class="dest-badge dest-badge--sky">Coastal</span><button
+                                class="dest-fav-btn"><i class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Southern Province</div>
+                                <h3>Hikkaduwa</h3>
+                                <p>Vibrant coastal town famed for colorful coral reefs and great surfing.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.6</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>20</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="bentota/bentota.html" id="bentota" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/bentota.jpg" alt="Bentota Beach"></div>
+                        <div class="dest-card-meta-top"><span class="dest-badge dest-badge--sky">Coastal</span><button
+                                class="dest-fav-btn"><i class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Southern Province</div>
+                                <h3>Bentota</h3>
+                                <p>Premium beach resort destination with tranquil watersports on the Madu ganga.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.8</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>45</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="haputale/haputale.html" id="haputale" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/haputale.jpg" alt="Haputale"></div>
+                        <div class="dest-card-meta-top"><span class="dest-badge dest-badge--accent">Hill
+                                Country</span><button class="dest-fav-btn"><i class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Uva Province</div>
+                                <h3>Haputale</h3>
+                                <p>Dramatic cloud forests and panoramic vistas perfect for peaceful hikes.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.7</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>30</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="kalpitiya/kalpitiya.html" id="kalpitiya" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/kalpitiya.jpg" alt="Kalpitiya"></div>
+                        <div class="dest-card-meta-top"><span
+                                class="dest-badge dest-badge--gold">Adventure</span><button class="dest-fav-btn"><i
+                                    class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> North Western</div>
+                                <h3>Kalpitiya</h3>
+                                <p>Asia's capital for kitesurfing and incredible dolphin watching expeditions.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.9</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>50</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="negombo/negombo.html" id="negombo" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/negombo.jpg" alt="Negombo Lagoon"></div>
+                        <div class="dest-card-meta-top"><span class="dest-badge dest-badge--sky">Coastal</span><button
+                                class="dest-fav-btn"><i class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Western Province</div>
+                                <h3>Negombo</h3>
+                                <p>Historic charm, Dutch canals, and an iconic lively fish market.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.5</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>25</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="pasikuda/pasikuda.html" id="pasikuda" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/pasikuda.jpg" alt="Pasikuda"></div>
+                        <div class="dest-card-meta-top"><span class="dest-badge dest-badge--sky">Coastal</span><button
+                                class="dest-fav-btn"><i class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Eastern Province</div>
+                                <h3>Pasikuda</h3>
+                                <p>One of the world's longest stretches of shallow coastline reef.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.8</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>40</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="dambulla/dambulla.html" id="dambulla" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/dambulla.jpg" alt="Dambulla Cave"></div>
+                        <div class="dest-card-meta-top"><span
+                                class="dest-badge dest-badge--violet">Heritage</span><button class="dest-fav-btn"><i
+                                    class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Central Province</div>
+                                <h3>Dambulla Cave Temple</h3>
+                                <p>A majestic ancient cave temple complex filled with legendary statues.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.9</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>20</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                  </h3>
+
+                    
+                    <a href="ratnapura/ratnapura.html" id="ratnapura" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/rathnapura.jpg" alt="Ratnapura"></div>
+                        <div class="dest-card-meta-top"><span
+                                class="dest-badge dest-badge--violet">Heritage</span><button class="dest-fav-btn"><i
+                                    class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Sabaragamuwa</div>
+                                <h3>Ratnapura</h3>
+                                <p>The City of Gems, offering insight into Sri Lanka's historic gemstone trade.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.4</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>15</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                    
+                    <a href="badulla/badulla.html" id="badulla" class="dest-card">
+                        <div class="dest-card-img"><img src="../images/badulla.jpg" alt="Badulla"></div>
+                        <div class="dest-card-meta-top"><span class="dest-badge dest-badge--accent">Hill
+                                Country</span><button class="dest-fav-btn"><i class="far fa-heart"></i></button></div>
+                        <div class="dest-card-overlay">
+                            <div class="dest-info">
+                                <div class="dest-location"><i class="fas fa-map-marker-alt"></i> Uva Province</div>
+                                <h3>Badulla</h3>
+                                <p>Scenic valley town encircled by the Namunukula mountain range and tea plains.</p>
+                                <div class="dest-card-bottom">
+                                    <div class="dest-rating"><span class="dest-rating-text"><strong>4.6</strong></span>
+                                    </div>
+                                    <div class="dest-price"><span class="dest-price-value"><span
+                                                class="currency">$</span>25</span></div>
+                                </div>
+                            </div>
+                            <button class="dest-card-cta"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </main>
+        <section class="newsletter">
+            <div class="newsletter-inner reveal">
+                <h2>Plan Your Sri Lanka Adventure</h2>
+                <p>Subscribe for exclusive deals, seasonal tips, and hidden gems.</p>
+                <div class="nl-form">
+                    <input type="email" placeholder="Enter email address" id="nl-email" />
+                    <button id="nl-btn">Subscribe <i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </section>
+        <footer class="footer"></footer>
+        <script src="../js/script.js"></script>
+        <script src="../js/destinations.js"></script>
+    </body>
+
+
+
+</html>
+
