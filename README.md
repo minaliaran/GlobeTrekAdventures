@@ -51,7 +51,7 @@
 | Home Page | Destination Explorer |
 | :---: | :---: |
 | ![Home Page](localhost_globeTrekadventures_index.php.png) |
-![Destinations](localhost_globeTrekadventures_destinations_destinations.html.png) |
+![Destinations](screenshots/localhost_globeTrekadventures_destinations_destinations.html.png) |
 
 | Booking Portal | Admin Dashboard |
 | :---: | :---: |
