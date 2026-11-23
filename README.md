@@ -50,11 +50,12 @@
 
 | Home Page | Destination Explorer |
 | :---: | :---: |
-| ![Home Page](screenshots/localhost_globeTrekadventures_index.php.png) | ![Destinations](screenshots/localhost_globeTrekadventures_destinations_destinations.html.png) |
+| ![Home Page](localhost_globeTrekadventures_index.php.png) |
+![Destinations](localhost_globeTrekadventures_destinations_destinations.html.png) |
 
 | Booking Portal | Admin Dashboard |
 | :---: | :---: |
-| ![Booking Portal](screenshots/localhost_globeTrekadventures_php_booking.php.png) | ![Admin Dashboard](screenshots/localhost_globeTrekadventures_admin_dashboard.php.png) |
+| ![Booking Portal](localhost_globeTrekadventures_php_booking.php.png) | ![Admin Dashboard](screenshots/localhost_globeTrekadventures_admin_dashboard.php.png) |
 
 ---
 
